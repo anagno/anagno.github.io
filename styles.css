@@ -288,6 +288,17 @@ p {
     min-width: 420px;  
   }
 }
+
+@media (max-width: 420px) {
+
+  .main-wrapper .time {
+    position: relative;
+  }
+
+   .wrapper {
+    min-width: 300px; 
+  }
+}
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 821px) {
