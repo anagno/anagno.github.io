@@ -111,14 +111,9 @@
     color: #bfbfbf;
 }
 
-.timeline-body-white>p,
-.timeline-body-white>ul {
-    color: white;
-}
-
 .timeline-body>p,
-.timeline-body>ul {
-    margin-bottom: 0;
+.timeline-body ul {
+    list-style-type: disc;
 }
 
 .timeline-body>p+p {
