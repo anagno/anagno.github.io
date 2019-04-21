@@ -107,15 +107,6 @@
 
 /*______________________ Global stlye ___________________*/
 
- @font-face {
-  font-family: 'font-awesome';
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
- }
-
  body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -929,7 +920,7 @@ body .button--wayra:hover::before {
 /* scrolldown link */
 .scrolldown a {  
   position: absolute;
-  bottom: 40px;
+  bottom: 70px;
   left: 50%;
   margin-left: -29px;
   color: #fff;
@@ -954,7 +945,7 @@ body .button--wayra:hover::before {
 #go-top {
   text-align: center;
   position: relative;
-	top: -103px;
+	top: -80px;
   left: 50%;
   margin-left: -30px;
 }

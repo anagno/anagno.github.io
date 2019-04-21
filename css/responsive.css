@@ -1,11 +1,11 @@
-@media (min-width: 992px) {
+@media (min-width: 992px) and (min-height:650px) {
   .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199px) and (min-height:650px) {
   .testimonial-seaction .testimonial-slider {width: 100%;}
   .qualification-block .single-block {padding-left: 20px;padding-right: 15px;}
 }
@@ -37,7 +37,7 @@
 /*(max-width: 991px)*/
 
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-height:650px) {
   #main-page section#home .main-wrapper h1 {font-size: 40px;}
   #main-page section#home .main-wrapper h4 {margin-bottom: 30px;}
   #main-page section#home .main-wrapper .cd-headline {display: block;padding: 0 0 10px 0; text-align: center;}
@@ -55,7 +55,7 @@
 /*(max-width: 767px)*/
 
 
-@media (max-width: 575px) {
+@media (max-width: 575px) and (min-height:650px) {
   #theme-menu-list ul li a {font-size: 14px;}
   #theme-menu-list ul li a .icon {top:12px;font-size: 16px;}
   #about .about-block .profile-list li {width: 100%;}
@@ -64,3 +64,24 @@
   .blog-details-main-content .comment-box .single-comment .comment .reply {position: static;margin-top: 10px;}
 }
 /*(max-width: 575px)*/
+
+
+@media (max-height: 650px) {
+  #theme-menu-list ul li a {font-size: 14px;}
+  #theme-menu-list ul li a .icon {top:12px;font-size: 16px;}
+  #about .about-block .profile-list li {width: 30%;}
+  .blog-details-main-content .author-text img {margin: 0 auto;}
+  .blog-details-main-content .author-text .text {width: 50%;padding: 15px 8px 12px;text-align: center;}
+  .blog-details-main-content .comment-box .single-comment .comment .reply {position: static;margin-top: 0px;}
+  .social-icon {position: absolute; bottom: 1px; left: 50%; margin-left: -100px;}
+  .scrolldown a {height: 15px; width: 15px; font-size: 30px; }
+}
+
+@media (max-height: 525px) {
+  #main-page section#home .img-box { width: 100px; height: 100px;}
+  #main-page section#home .main-wrapper h1 {margin:12px 0; }
+}
+
+@media (max-height: 525px) {
+  #main-page section#home .img-box { visibility: hidden;}
+}
