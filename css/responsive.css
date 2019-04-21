@@ -78,10 +78,10 @@
 }
 
 @media (max-height: 525px) {
-  #main-page section#home .img-box { width: 100px; height: 100px;}
+  #main-page section#home .img-box {width: 100px; height: 100px;}
   #main-page section#home .main-wrapper h1 {margin:12px 0; }
 }
 
 @media (max-height: 525px) {
-  #main-page section#home .img-box { visibility: hidden;}
+  #main-page section#home .img-box {display:none;}
 }
