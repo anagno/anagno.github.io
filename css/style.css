@@ -975,12 +975,12 @@ body .button--wayra:hover::before {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes updown {
-  from {-webkit-transform: scale(1); bottom: 45px;}
-  to {-webkit-transform: scale(1.2); bottom: 30px;}
+  from {-webkit-transform: scale(1); bottom: 60px;}
+  to {-webkit-transform: scale(1.2); bottom: 45px;}
 }
 
 /* Standard syntax */
 @keyframes updown {
-  from {transform: scale(1); bottom: 42px;}
-  to {transform: scale(1.2); bottom: 30px;}
+  from {transform: scale(1); bottom: 55px;}
+  to {transform: scale(1.2); bottom: 42px;}
 } 
